@@ -16,6 +16,10 @@
         {
             return a - b;
         }
+        int Multiply(int a, int b)//fxn declaration with code body and called functionality private
+        {
+            return a*b;
+        }
         //    // --------------------------recursion method example-----------------p
         //    int n;
         //    public void counting()
@@ -57,6 +61,7 @@
             //obj.b = 30;
             Console.WriteLine("sum of given no is: "+obj.Add(a,b));
             Console.WriteLine("sub of given no is: "+obj.Subtract(a,b));
+            Console.WriteLine("Product of given no is: " + obj.Multiply(a, b));
             Console.ReadLine();
             //
             //calculator obj2 = new calculator(); //multiple object creation
