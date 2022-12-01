@@ -57,6 +57,7 @@
             //obj.b = 30;
             Console.WriteLine("sum of given no is: "+obj.Add(a,b));
             Console.WriteLine("sub of given no is: "+obj.Subtract(a,b));
+            Console.ReadLine();
             //
             //calculator obj2 = new calculator(); //multiple object creation
             //obj2.a = 40;
